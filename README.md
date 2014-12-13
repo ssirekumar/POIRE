@@ -6,4 +6,10 @@ Its a Microsoft Ms-office file handling with Java with the help of the POI class
 of the POI library. Its has so many methods for working with the excel files. These methods will work on the both the 
 Excel formats .xls and .xlsx files.
 
+This excel library API mainly usefull for developmet and mainly useful for Testing Automation.
+
+Example Methods on Excel:
+
+
+
 
