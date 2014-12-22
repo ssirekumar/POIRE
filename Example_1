@@ -1,0 +1,33 @@
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import office.excel.ExcelDataEngine;
+
+public class ExampleOne {
+
+	public static void main(String[] args) {
+		File fileObject = new File("C:\\TestExcel\\WorkBook_2010_1.xlsx");
+		System.out.println(ExcelDataEngine.getRowCount(fileObject.getAbsolutePath(), 0));
+		
+		//Example_1
+		/* The below line of the code to get the data from the sheet in  ArrayList<ArrayList<String>>*/
+		ArrayList<ArrayList<String>> countRwo23 = ExcelDataEngine.getExcelDataWithSheetNumber(fileObject.getAbsolutePath(), 1, 0);
+		for(ArrayList<String> listValue : countRwo23){
+			System.out.println(listValue);
+		}
+		
+		//Example_2
+		/* The below line of the code will create the row at the end of the data exists in the excel 
+		 * After creation of the new row at end it will give you the row number and it will update the data
+		 * data in specified column Positions*/
+		int rownum = ExcelDataEngine.createNewRowAtEnd(fileObject.getAbsolutePath(), "Sheet1");
+		ArrayList<String> _arryObj2 = new ArrayList<String>(Arrays.asList(new String[] {"Onej","Two","Threej","Four","five"}));
+		ExcelDataEngine.updateListDataInExcelFile(fileObject.getAbsolutePath(), _arryObj2, new int[]{0,4,6,7,6}, rownum, "Sheet1");
+		
+		//Example_3
+		/* The below line of the code is update the array data in specified column Positions*/
+		ArrayList<String> _arryObj = new ArrayList<String>(Arrays.asList(new String[] {"One","Two","Three","Four"}));
+		ExcelDataEngine.updateListDataInExcelFile(fileObject.getAbsolutePath(), _arryObj, new int[]{0,4,6,7,6}, 21, "Sheet1");
+	}
+
+}
