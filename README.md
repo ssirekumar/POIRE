@@ -6,7 +6,15 @@ Its a Microsoft Ms-office file handling with Java with the help of the POI class
 of the POI library. Its has so many methods for working with the excel files. These methods will work on the both the 
 Excel formats .xls and .xlsx files.
 
-This excel library API mainly usefull for developmet and mainly useful for Testing Automation.
+In this i was included so many user friendly methods with the help of POI Library. This API will supprot all the excel formats like .xls and .xlsx with the help of the  NPOIFSFileSystem & OPCPackage classes in the POI. with these classes the reading and writing into excel file would be faster.
+
+These methods are mainly useful for the Automation testing if you want to read the data from the Excel on diffrent sheets.
+
+These methods will helpful while making any automation framework(Data driven & Hybride) with the Test data as Excel.
+
+These Methods will be helpful in development when ever it require to read/write the data from the excel. 
+
+
 
 <b>Example Methods on Excel:</b>
 
