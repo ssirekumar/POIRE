@@ -1,2 +1,25 @@
 
 Please find the below detail of POIRE jar configuration in to your project.
+
+This jar is dependent on diffrent POI libraries. below are the dependenc
+
+    - dom4j-1.6.1.jar
+    - log4j-1.2.8.jar
+    - poi-3.10.1-20140818.jar
+    - poi-ooxml-3.10.1-20140818.jar
+    - poi-ooxml-schemas-3.10.1-20140818.jar
+    - stax-api-1.0.1.jar
+    - xmlbeans-2.6.0.jar
+    
+The above jar can be dowloded from the below URL
+    http://www.apache.org/dyn/closer.cgi/poi/release/bin/poi-bin-3.11-20141221.zip
+    
+  Add these libraries into your build path with poire-standalone-1.0.0_20141222.jar
+  
+  Configure Your project with these files.
+  
+  1). create one folder in your project with Name as '<b>PropertieFiles</b>'
+  2). Create one more folder in your project with name of '<b>logs</b>
+  3). Place the  logs.properties file into 'PropertieFiles' folder.
+  
+  
