@@ -35,22 +35,21 @@ These Methods will be helpful in development when ever it require to read/write 
 8). ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName)
 
 <h2>Features</h2></br>
-      A new XLS, XLsx file can be created.</br>  
-      Create a new excel sheet.</br>
-      Get the data as per the excel format.</br>
-      If the cell having a formula it can be formated while retriving the data.
-      Get the Excel Column data as a ArrayList<String> With specified column number/column Header and its sheet
-      number/Name.
-      Get the Excel row data as a ArrayList<String> With specified row Number/row header and its number/Name.
-      Update random data in the existing Excel row with specified columnPositions values. update data may be random
-      string or number can be possible.
-      Update the data with specified arrayList in existing Excel row with columnPositions values.
-      Update the data with specified arrayList in existing Excel row data with columnPositions values.
-      Create/Update the data with specified arrayList based on sheet number insed in existing Excel.
-      Create/Update the row with specified arrayList based on the sheet name in existing Excel.
-      Create/Update the row from column position with specified arrayList based on the sheet name/sheet Number Index
-      in existing Excel.
-      Create/Update the row with same data from column position with specified rowdata based on the sheet name in
-      existing Excel.
+      <ul>
+	<li>Create a new XLS, XLSX excel sheet.</li>
+	<li>Get the data as per the excel format.If the cell having a formula it can be formated while retriving the data.</li>
+	<li>Get the Excel Column data as a ArrayList&lt;String&gt; With specified column number/column Header and its sheet number/Name.</li>
+	<li>Get the Excel row data as a ArrayList&lt;String&gt; With specified row Number/row header and its number/Name.</li>
+	<li>Update random data in the existing Excel row with specified columnPositions values. update data may be random string or number can be possible.</li>
+	<li>Update the data with specified arrayList in existing Excel row with columnPositions values.</li>
+	<li>Update the data with specified arrayList in existing Excel row data with columnPositions values.</li>
+	<li>Create/Update the data with specified arrayList based on sheet number insed in existing Excel.</li>
+	<li>Create/Update the row with specified arrayList based on the sheet name in existing Excel.</li>
+	<li>Create/Update the row from column position with specified arrayList based on the sheet name/sheet Number Index in existing Excel.</li>
+	<li>Create/Update the row with same data from column position with specified rowdata based on the sheet name in existing Excel.</li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 
