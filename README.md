@@ -34,10 +34,10 @@ These Methods will be helpful in development when ever it require to read/write 
 
 8). ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName)
 
-<b>Features</b>
-      A new XLS, XLsx file can be created  
-      Create a new excel sheet.
-      Get the data as per the excel format.
+<h2>Features</h2></br>
+      A new XLS, XLsx file can be created.</br>  
+      Create a new excel sheet.</br>
+      Get the data as per the excel format.</br>
       If the cell having a formula it can be formated while retriving the data.
       Get the Excel Column data as a ArrayList<String> With specified column number/column Header and its sheet
       number/Name.
