@@ -4,7 +4,7 @@ Author: Ssire Kumar Puttagunta
 
 Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java with the help of the POI classes. This API was develop on the top of the POI library. Its has so many methods for working with the Ms-office files(Excel,Ms Word,PowerPoint). These methods will work on the both the binary(.xls, .doc, .ppt) and XML(.xlsx, .docx, .pptx). with the help of the NPOIFSFileSystem & OPCPackage classes in the POI. with these classes the reading and writing into file would be faster. In this i included so many user friendly methods with the help of POI Library.
 
-<h4>Note:</h4>In this POIREV_1.0.0 build having only methods for excel only. Next major vertion i will include methods for word and powerpoint. 
+<h4>Note:</h4>In this POIREV_1.0.0 build having only methods for excel only. Next major version i will include methods for word and powerpoint. 
 
 <h2>Usages</h2></br>
 <ul>
