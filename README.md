@@ -5,13 +5,11 @@ Author: Ssire Kumar Puttagunta
 Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java with the help of the POI classes. This API was develop on the top of the POI library. Its has so many methods for working with the Ms-office files(Excel,Ms Word,PowerPoint). These methods will work on the both the binary(.xls, .doc, .ppt) and XML(.xlsx, .docx, .pptx). with the help of the NPOIFSFileSystem & OPCPackage classes in the POI. with these classes the reading and writing into file would be faster. In this i included so many user friendly methods with the help of POI Library.
 
 <h2>Usages</h2></br>
-    <ul>
-	<li>These methods are mainly useful for the Automation testing if you want to read the data from the Excel on diffrent sheets.</li>
-
-	<li>These methods will helpful while making any automation framework(Data driven & Hybride) with the Test data as Excel. </li>
-
-	<li>These Methods will be helpful in development when ever it require to read/write the data from the excel.</li>
-   </ul>
+<ul>
+<li>These methods are mainly useful for the Automation testing if you want to read the data from the Excel on diffrent sheets.</li>
+<li>These methods will helpful while making any automation framework(Data driven & Hybride) with the Test data as Excel. </li>
+<li>These Methods will be helpful in development when ever it require to read/write the data from the excel.</li>
+</ul>
 
 
 <b>Example Methods on Excel:</b>
