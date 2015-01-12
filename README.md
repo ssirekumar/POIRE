@@ -8,7 +8,7 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
     <ul>
 	<li>These methods are mainly useful for the Automation testing if you want to read the data from the Excel on diffrent sheets.</li>
 
-	<li>These methods will helpful while making any automation framework(Data driven & Hybride) with the Test data as Excel.</li>
+	<li>These methods will helpful while making any automation framework(Data driven & Hybride) with the Test data as Excel. </li>
 
 	<li>These Methods will be helpful in development when ever it require to read/write the data from the excel.</li>
    </ul>
