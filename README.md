@@ -46,27 +46,23 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 	<li>Create/Update the row from column position with specified arrayList based on the sheet name/sheet Number Index in existing Excel.</li>
 	<li>Create/Update the row with same data from column position with specified rowdata based on the sheet name in existing Excel.</li>
 </ul>
-
 <p>&nbsp;</p>
-
 <h2>Changes from V1.0.0 to POIRE(1.1.0)</h2></br>
-
 <b>Excel:</b>
-<ul>
-	<li>1). Added converted methods from csv to excel and excel to csv.</li>
-	<li>2). Added a methods to convert the sheet to new excel file and same way multiple array of selected sheet
+<ol type="1">
+	<li>Added converted methods from csv to excel and excel to csv.</li>
+	<li>Added a methods to convert the sheet to new excel file and same way multiple array of selected sheet
 	        from the excel file to new file.</li></br>
-  	<li>3). Added a new overloded method for removeSheet with array of sheet names given.</li>
-	<li>4). Added a method to create the excel file with given array of sheet names.</li>
-</ul>
-
+  	<li>Added a new overloded method for removeSheet with array of sheet names given.</li>
+	<li>Added a method to create the excel file with given array of sheet names.</li>
+</ol>
 <b>Word:</b></br>
-<ul>
-	<li>1). Added a method to set the margin of the document.</li>
-  	<li>2). Added a method to create the doc file.</li>
-	<li>3). Added a method to create a paragraph in the specified document.</li>
-</ul>
+<ol>
+	<li>Added a method to set the margin of the document.</li>
+  	<li>Added a method to create the doc file.</li>
+	<li>Added a method to create a paragraph in the specified document.</li>
+</ol>
 <b>Powerpoint:</b></br>
-<ul>
-	1). Added a method for create a new powerpoint file.</li>
-</ul>
+<ol>
+	<li>Added a method for create a new powerpoint file.</li>
+</ol>
