@@ -71,8 +71,9 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 <ol type="1">
 	<li>While seting the margins for .doc files it will throw some exception.</li>
    	<li>While creating the paragraphs for .doc file one after other it will create as a single paragraph.</li>
+</ol>
 
- ```java
+```java
   File _fileWordObj2 = WordDataEngine.createDocumentFile(false, "C:\\TestExcel", "Test123");
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font1");
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font2");
@@ -82,5 +83,3 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 Output as 
   Text need to be placed with size and font4Text need to be placed with size and font3
   Text need to be placed with size and font2Text need to be placed with size and font1
-
-</ol>
