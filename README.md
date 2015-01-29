@@ -1,4 +1,4 @@
-POIRE
+POIRE (1.1.0)
 =====
 Author: Ssire Kumar Puttagunta
 
