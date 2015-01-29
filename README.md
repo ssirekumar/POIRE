@@ -52,18 +52,18 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 <h2>Changes from V1.0.0 to POIRE(1.1.0)</h2></br>
 
 <b>Excel:</b>
-1). Added converted methods from csv to excel and excel to csv.
-2). Added a methods to convert the sheet to new excel file and same way multiple array of selected sheet from the excel file to new file.
-3). Added a new overloded method for removeSheet with array of sheet names given.
-4). Added a method to create the excel file with given array of sheet names.
+1). Added converted methods from csv to excel and excel to csv.</br>
+2). Added a methods to convert the sheet to new excel file and same way multiple array of selected sheet from the excel file to new file.</br>
+3). Added a new overloded method for removeSheet with array of sheet names given.</br>
+4). Added a method to create the excel file with given array of sheet names.</br>
 
-<b>Word:</b>
+<b>Word:</b></br>
 
-1). Added a method to set the margin of the document.
-2). Added a method to create the doc file.
-3). Added a method to create a paragraph in the specified document.
+1). Added a method to set the margin of the document.</br>
+2). Added a method to create the doc file.</br>
+3). Added a method to create a paragraph in the specified document.</br>
 
-<b>Powerpoint:</b>
+<b>Powerpoint:</b></br>
 
-1). Added a method for create a new powerpoint file.
+1). Added a method for create a new powerpoint file.</br>
 
