@@ -4,7 +4,7 @@ Author: Ssire Kumar Puttagunta
 
 Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java with the help of the POI classes. This API was develop on the top of the POI library. Its has so many methods for working with the Ms-office files(Excel,Ms Word,PowerPoint). These methods will work on the both the binary(.xls, .doc, .ppt) and XML(.xlsx, .docx, .pptx). with the help of the NPOIFSFileSystem & OPCPackage classes in the POI. with these classes the reading and writing into file would be faster. In this i included so many user friendly methods with the help of POI Library.
 
-<h4>Note:</h4>In this POIREV_1.0.0 build having only methods for excel only. Next major version i will include methods for word and powerpoint. 
+<h4>Note:</h4>In this POIRE (1.1.0) build having some methods for word and powerpoint.
 
 <h2>Usages</h2></br>
 <ul>
@@ -49,5 +49,21 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 
 <p>&nbsp;</p>
 
+<h2>Changes from V1.0.0 to POIRE(1.1.0)</h2></br>
 
+<b>Excel:</b>
+1). Added converted methods from csv to excel and excel to csv.
+2). Added a methods to convert the sheet to new excel file and same way multiple array of selected sheet from the excel file to new file.
+3). Added a new overloded method for removeSheet with array of sheet names given.
+4). Added a method to create the excel file with given array of sheet names.
+
+<b>Word:</b>
+
+1). Added a method to set the margin of the document.
+2). Added a method to create the doc file.
+3). Added a method to create a paragraph in the specified document.
+
+<b>Powerpoint:</b>
+
+1). Added a method for create a new powerpoint file.
 
