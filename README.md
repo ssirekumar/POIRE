@@ -18,17 +18,18 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 
 ```java
    ArrayList<String> getExcelColumnWithSheetIndex(String filePath, int colNumber, int sheetNumberIndex, boolean
-   blankCells)
-   ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean blankCells)
-   ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean    blankCells)
-   ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells)
+   blankCells);
+   ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean  
+   blankCells);
+   ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean    blankCells);
+   ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells);
    updateRandomDataInExcelFile(String filePath, int[] columnPositions, int skipLines, int sheetNumberIndex, int
-   lengthOfRandomString, boolean randomNumberString)
+   lengthOfRandomString, boolean randomNumberString);
    updateDataInExcelFile(String filePath, ArrayList<String> rowData int[] columnPositions, int rowNumber, String 
-   sheetName)
+   sheetName);
    ArrayList<String> getExcelRowWithSpecifiedColumn(String filePath, int[] columnPositions, int rowNumber, int
-   sheetNumberIndex)
-   ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName)
+   sheetNumberIndex);
+   ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName);
  ```
 
 <h2>Features</h2></br>
