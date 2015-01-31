@@ -16,21 +16,22 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 
 <b>Example Methods on Excel:</b>
 
-```java
-   ArrayList<String> getExcelColumnWithSheetIndex(String filePath, int colNumber, int sheetNumberIndex, boolean
-   blankCells);
-   ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean  
-   blankCells);
-   ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean    blankCells);
-   ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells);
-   updateRandomDataInExcelFile(String filePath, int[] columnPositions, int skipLines, int sheetNumberIndex, int
-   lengthOfRandomString, boolean randomNumberString);
-   updateDataInExcelFile(String filePath, ArrayList<String> rowData int[] columnPositions, int rowNumber, String 
-   sheetName);
-   ArrayList<String> getExcelRowWithSpecifiedColumn(String filePath, int[] columnPositions, int rowNumber, int
-   sheetNumberIndex);
-   ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName);
- ```
+<ol type="1">
+   <li>ArrayList<String> getExcelColumnWithSheetIndex(String filePath, int colNumber, int sheetNumberIndex, boolean
+   blankCells);</li>
+   <li>ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean  
+   blankCells);</li>
+   <li>ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean    blankCells);</li>
+   <li>ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells);</li>
+   <li>updateRandomDataInExcelFile(String filePath, int[] columnPositions, int skipLines, int sheetNumberIndex, int
+   lengthOfRandomString, boolean randomNumberString);</li>
+   <li>updateDataInExcelFile(String filePath, ArrayList<String> rowData int[] columnPositions, int rowNumber, String 
+   sheetName);</li>
+   <li>ArrayList<String> getExcelRowWithSpecifiedColumn(String filePath, int[] columnPositions, int rowNumber, int
+   sheetNumberIndex);</li>
+   <li>ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName);</li>
+</ol>
+
 
 <h2>Features</h2></br>
       <ul>
