@@ -17,22 +17,20 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 <b>Example Methods on Excel:</b>
 
 ```java
-1). ArrayList<String> getExcelColumnWithSheetIndex(String filePath, int colNumber, int sheetNumberIndex, boolean blankCells)
+   ArrayList<String> getExcelColumnWithSheetIndex(String filePath, int colNumber, int sheetNumberIndex, boolean
+   blankCells)
+   ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean blankCells)
+   ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean    blankCells)
+   ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells)
+   updateRandomDataInExcelFile(String filePath, int[] columnPositions, int skipLines, int sheetNumberIndex, int
+   lengthOfRandomString, boolean randomNumberString)
+   updateDataInExcelFile(String filePath, ArrayList<String> rowData int[] columnPositions, int rowNumber, String 
+   sheetName)
+   ArrayList<String> getExcelRowWithSpecifiedColumn(String filePath, int[] columnPositions, int rowNumber, int
+   sheetNumberIndex)
+   ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName)
+ ```
 
-2). ArrayList<String> getExcelColumnWithSheetName(String filePath, int colNumber, String sheetName, boolean blankCells)
-
-3). ArrayList<String> getExcelColumnWithHeaderName(String filePath, String columnHeaderName, String sheetName, boolean blankCells)
-
-4). ArrayList<String> getExcelRowWithSheetName(String filePath, int rowNumber, String sheetName, boolean blankCells)
-
-5). updateRandomDataInExcelFile(String filePath, int[] columnPositions, int skipLines, int sheetNumberIndex, int lengthOfRandomString, boolean randomNumberString)
-
-6). updateDataInExcelFile(String filePath, ArrayList<String> rowData int[] columnPositions, int rowNumber, String sheetName)
-
-7). ArrayList<String> getExcelRowWithSpecifiedColumn(String filePath, int[] columnPositions, int rowNumber, int sheetNumberIndex)
-
-8). ArrayList<ArrayList<String>> getExcelDataWithSheetNumber(String filePath, int skipLines, String sheetName)
-```
 <h2>Features</h2></br>
       <ul>
 	<li>Create a new XLS, XLSX excel sheet.</li>
@@ -81,6 +79,6 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font3");
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font4");
  ```
-Output as 
+Output as</br> 
   Text need to be placed with size and font4Text need to be placed with size and font3
   Text need to be placed with size and font2Text need to be placed with size and font1
