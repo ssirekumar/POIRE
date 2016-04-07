@@ -6,6 +6,8 @@ Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java wit
 
 <h4>Note:</h4>In this POIRE (1.1.0) build having some methods for word and powerpoint.
 
+Download the build from: https://github.com/ssirekumar/POIRE/releases
+
 <h2>Usages</h2></br>
 <ul>
 <li>These methods are mainly useful for the Automation testing if you want to read the data from the Excel on diffrent sheets.</li>
