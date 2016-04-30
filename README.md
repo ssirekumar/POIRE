@@ -89,7 +89,7 @@ Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIR
  ```
 
 
-Software License Agreement (<a href="https://opensource.org/licenses/BSD-2-Clause">BSD License</a>)
+Software License Agreement (<a href="https://opensource.org/licenses/BSD-2-Clause">BSD License</a>)</br>
 <b>Copyright (c) 2014, Ssire Kumar
 All rights reserved.</b>
 
