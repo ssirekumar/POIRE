@@ -88,6 +88,8 @@ Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIR
   Text need to be placed with size and font2Text need to be placed with size and font1
  ```
 
+
+Software License Agreement (<a href="https://opensource.org/licenses/BSD-2-Clause">BSD License</a>)
 <b>Copyright (c) 2014, Ssire Kumar
 All rights reserved.</b>
 
