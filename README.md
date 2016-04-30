@@ -82,19 +82,14 @@ Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIR
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font2");
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font3");
   WordDataEngine.createParagraph(_fileWordObj2.getAbsolutePath(), "Text need to be placed with size and font4");
- ```
-Output as</br> 
+  
+  Output as</br> 
   Text need to be placed with size and font4Text need to be placed with size and font3
   Text need to be placed with size and font2Text need to be placed with size and font1
-  
-  
-  
-  
-  
-  
-  
-Copyright (c) 2014, Ssire Kumar
-All rights reserved.
+ ```
+
+<b>Copyright (c) 2014, Ssire Kumar
+All rights reserved.</b>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
