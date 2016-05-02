@@ -4,7 +4,7 @@ Author: <b>Ssire (Siri) Kumar Puttagunta</b>
 
 Its a Microsoft Ms-office(Excel,Ms Word,PowerPoint) files handling with Java with the help of the POI classes. This API was develop on the top of the POI library. Its has so many methods for working with the Ms-office files(Excel,Ms Word,PowerPoint). These methods will work on the both the binary(.xls, .doc, .ppt) and XML(.xlsx, .docx, .pptx). with the help of the NPOIFSFileSystem & OPCPackage classes in the POI. with these classes the reading and writing into file would be faster. In this i included so many user friendly methods with the help of POI Library.
 
-<h4>Note:</h4>In this POIRE (1.1.0) build having some methods for word and powerpoint.
+<h4>Note:</h4>In this POIRE v1.1.0 build having some methods for word and powerpoint.
 
 Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIRE/releases
 
@@ -50,7 +50,7 @@ Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIR
 	<li>Create/Update the row with same data from column position with specified rowdata based on the sheet name in existing Excel.</li>
 </ul>
 <p>&nbsp;</p>
-<h2>Changes from V1.0.0 to POIRE(1.1.0)</h2></br>
+<h2>Changes from v1.0.0 to v1.1.0</h2></br>
 <b>Excel:</b>
 <ol type="1">
 	<li>Added converted methods from csv to excel and excel to csv.</li>
@@ -70,7 +70,7 @@ Download the .jar and its dependent jar from: https://github.com/ssirekumar/POIR
 	<li>Added a method for create a new powerpoint file.</li>
 </ol>
 
-<h2>Issues in POIRE(1.1.0)</h2>
+<h2>Issues in POIRE v1.1.0</h2>
 <ol type="1">
 	<li>While seting the margins for .doc files it will throw some exception.</li>
    	<li>While creating the paragraphs for .doc file one after other it will create as a single paragraph.</li>
