@@ -1,4 +1,4 @@
-POIRE (1.1.0)
+POIRE v1.1.0
 =====
 Author: <b>Ssire (Siri) Kumar Puttagunta</b>
 
