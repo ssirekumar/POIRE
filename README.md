@@ -2,7 +2,7 @@ POIRE v1.1.0
 =====
 Author: <b>Ssire (Siri) Kumar Puttagunta</b>
 
-It's a Llibrary to handle Microsoft office (Spreadsheet, Word, and PowerPoint) files using Java programming with the help of POI classes. This API was developed on top of the POI library. It has 75+ static methods for working with the Microsoft office files. These methods will work on both the binary (.xls, .doc, .ppt) and XML (.xlsx, .docx, .pptx). With the help of NPOIFSFileSystem & OPCPackage classes in the POI. With these classes, reading and writing into a file would be faster. This library is available under open source BSD License in a public repository on GitHub
+It's a API to handle Microsoft office (Spreadsheet, Word, and PowerPoint) files using Java programming with the help of POI classes. This API was developed on top of the POI library. It has 75+ static methods for working with the Microsoft office files. These methods will work on both the binary (.xls, .doc, .ppt) and XML (.xlsx, .docx, .pptx). With the help of NPOIFSFileSystem & OPCPackage classes in the POI. With these classes, reading and writing into a file would be faster. This library is available under open source BSD License in a public repository on GitHub
 
 <h4>Note:</h4>In this POIRE v1.1.0 build having some methods for word and powerpoint.
 
