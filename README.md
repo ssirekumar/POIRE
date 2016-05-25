@@ -4,10 +4,10 @@ Author: <b>Ssire (Siri) Kumar Puttagunta</b>
 <html>
 <head>
 <meta name="google-site-verification" content="6kt9W_9A6y9dWFKAGqP4rBPOQop4YZks5ddVcIaVz3E" />
-<title> My title </title>
+<title>  </title>
 </head>
 <body>
-page contents
+
 </body>
 </html>
 
