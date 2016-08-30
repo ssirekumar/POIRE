@@ -1,6 +1,6 @@
 POIRE v1.1.0
 =====
-Author: <b>Ssire (Siri) Kumar Puttagunta</b>
+Author: <b>Siri (Ssire) Kumar Puttagunta</b>
 <html>
 <head>
 <meta name="google-site-verification" content="6kt9W_9A6y9dWFKAGqP4rBPOQop4YZks5ddVcIaVz3E" />
