@@ -1,4 +1,4 @@
-POIRE v1.1.0  (POI-ReEnhanced)
+POIRE (POI-ReEnhanced) v1.1.0  
 =====
 Author: <b>Siri (Ssire) Kumar Puttagunta</b>
 <html>
