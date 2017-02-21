@@ -1,4 +1,4 @@
-POIRE (POI-ReEnhanced) v1.1.0  <img src="https://cloud.githubusercontent.com/assets/10174519/5957047/6b35dd1e-a7da-11e4-8b6c-004dbf07e725.png" alt="Kiwee - Ui" style="width:150px;height:150px;" width="350px" height="450px">
+<img src="https://cloud.githubusercontent.com/assets/10174519/5957047/6b35dd1e-a7da-11e4-8b6c-004dbf07e725.png" alt="Kiwee - Ui" style="width:150px;height:150px;" width="350px" height="450px"></br> POIRE (POI-ReEnhanced) v1.1.0 
 =====
 Author: <b>Siri (Ssire) Kumar Puttagunta</b>
 <html>
