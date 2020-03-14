@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite" verbose="5">
+	<listeners>
+		<listener class-name="com.walnut.poire.CustomTestNGReporter" />
+	</listeners>
+	<test name="Get Column data tests" enabled="false">
+		<classes>
+			<class name="com.walnut.poire.PoireTests">
+				<methods>
+				    <include name="findingIfFileNotfound"></include>
+				    <include name="changeFilePath"></include>
+					<include name="getExcelColumnWithSheetIndex"></include>
+					<include name="getExcelColumnWithSheetName"></include>
+					<include name="getExcelColumnWithHeaderName"></include>
+					<include name="getExcelColumnWithHeaderSheetIndex"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Get row data tests">
+		<classes>
+			<class name="com.walnut.poire.PoireTests">
+				<methods>
+				    <include name="getExcelRowWithSheetIndex"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
